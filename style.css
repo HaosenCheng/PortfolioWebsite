@@ -10,7 +10,7 @@
     display: flex;
     width: 100%;
     top:0;
-    justify-content: space-around;
+    justify-content: flex-end;
 }
 .navbar > ul{
     display: flex;
@@ -58,7 +58,7 @@ h5{
     display: flex;
     flex-direction: column;
     align-items: left;
-    justify-content: space-around;
+    justify-content:space-around;
     max-width: 90vh;
     min-height: 50vh;
     margin-left: 40px;
@@ -69,7 +69,7 @@ h5{
 .home_pic{
     display: flex;
     height:fit-content;
-    width:100vh;
+    width:80vh;
     margin-right: 40px;
     align-self: center;
     justify-content: center;
@@ -81,6 +81,7 @@ h5{
     padding-bottom: 20px;
     border-radius: 10%;
 }
+
 
 /* Learn More button*/
 .home_aboutMe_button{
@@ -97,4 +98,6 @@ h5{
     background-color: white;
     color: black
 }
+
+
 
