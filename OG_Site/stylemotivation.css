@@ -1,0 +1,21 @@
+html{
+    background-color: black;
+}
+
+.Text{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.Image{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 25%;
+
+}
+
+#pic1{
+    border:5px solid white;
+    width: 100%;
+}

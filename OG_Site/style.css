@@ -1,0 +1,21 @@
+#bigblackman{
+    width:400px;
+    height:200px;
+    
+}
+
+html{
+    background-color: black;
+}
+
+h1, h2, h3, h4, h5{
+    color: antiquewhite;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+a{
+    color: aquamarine;
+}

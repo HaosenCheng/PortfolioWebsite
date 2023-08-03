@@ -1,0 +1,100 @@
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
+/*navbar*/
+.navbar{
+    background-color: black;
+    position: fixed;
+    display: flex;
+    width: 100%;
+    top:0;
+    justify-content: space-around;
+}
+.navbar > ul{
+    display: flex;
+    width:100vh;
+    justify-content: space-around;
+    flex-direction: row;
+    list-style: none;
+}
+.navButton{
+    background-color: transparent;
+    border: 0px;
+    color:white;
+    font-family:"Bebas Neue";
+    font-size: 30px;
+}
+.navButton:hover{
+    background-color: white;
+    color: black;
+}
+
+/*homepage contents*/
+.home{
+    display: flex;
+    margin:0px 100px 20px 20px;
+    justify-content: space-between;
+}
+
+
+h1{
+    color:white;
+    font-family:"Bebas Neue";
+    font-weight: lighter;
+    font-size: 160px;
+}
+
+h5{
+    color:white;
+    font-family:"Bebas Neue";
+    font-weight:lighter;
+    font-size: 40px;
+}
+
+/* Intro (left) panel of the .home container*/
+.home_intro{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-around;
+    max-width: 90vh;
+    min-height: 50vh;
+    margin-left: 40px;
+}
+
+
+/* Hero (right) panel of the .home container*/
+.home_pic{
+    display: flex;
+    height:fit-content;
+    width:100vh;
+    margin-right: 40px;
+    align-self: center;
+    justify-content: center;
+}
+
+.home_pic > img {
+    height: 60vh;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10%;
+}
+
+/* Learn More button*/
+.home_aboutMe_button{
+    background-color:transparent;
+    width:fit-content;
+    align-self: flex-start;
+    border: 0;
+    color:white;
+    font-family:"Bebas Neue";
+    font-size: 70px;
+}
+
+.home_aboutMe_button:hover{
+    background-color: white;
+    color: black
+}
+
